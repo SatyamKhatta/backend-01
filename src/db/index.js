@@ -16,7 +16,7 @@ const connectDB = async()=>{
         console.log("mongoDB connection error : ", error)
 
         // Exit code 1 usually indicates that the process has exited due to an error. It signals that something went wrong during the execution of the process.
-
+ 
         process.exit(1)
 
         
